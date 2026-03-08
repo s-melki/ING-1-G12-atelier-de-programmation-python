@@ -2,16 +2,16 @@ from abc import ABC, abstractmethod
 
 class Vehicule(ABC):
     def __init__(self, marque, modele, annee):
-        self.__marque = marque
-        self.__modele = modele
-        self.__annee = annee
+        self._marque = marque
+        self._modele = modele
+        self._annee = annee
         
     @abstractmethod
     def cout_entretien_annuel(self):  
         return f"cout ici"
     
     def get_info(self):
-        return f"{self.__marque}, {self.__modele}, {self.__annee}"
+        return f"{self._marque}, {self._modele}, {self._annee}"
     
 class Voiture(Vehicule):
     

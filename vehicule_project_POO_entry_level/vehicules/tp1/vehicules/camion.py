@@ -2,7 +2,7 @@
 Module defining the Camion class.
 """
 
-from vehicules.vehicule import Vehicule
+from vehicules.Vehicule import Vehicule
 
 
 class Camion(Vehicule):

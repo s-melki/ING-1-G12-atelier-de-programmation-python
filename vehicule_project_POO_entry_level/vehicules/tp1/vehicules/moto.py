@@ -2,7 +2,7 @@
 Module defining the Moto class.
 """
 
-from vehicules.vehicule import Vehicule
+from vehicules.Vehicule import Vehicule
 
 
 class Moto(Vehicule):

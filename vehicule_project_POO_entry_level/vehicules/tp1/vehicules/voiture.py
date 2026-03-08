@@ -2,7 +2,7 @@
 Module defining the Voiture class.
 """
 
-from vehicules.vehicule import Vehicule
+from vehicules.Vehicule import Vehicule
 
 
 class Voiture(Vehicule):
